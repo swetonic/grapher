@@ -2,8 +2,8 @@ require 'uri'
 require 'net/http'
 
 class DataManagerController < ApplicationController
-    API_KEY = 'your rovi api key here'
-    SHARED_SECRET = 'your rovi shared secret here'
+    API_KEY = 'rk4zzd4n8kr7j3td4vmjvduk'
+    SHARED_SECRET = 'AQ3sKz9ugz'
     MAX_NODES = 4
     
     
