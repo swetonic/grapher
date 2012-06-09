@@ -52,6 +52,9 @@ Grapher::Application.routes.draw do
 
   # See how all your routes lay out with "rake routes"
 
+  
+  match '/javascripts/jquery_ujs.js', :to => redirect('/public/javascripts/jquery_ujs.js') 
+
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   match ':controller(/:action(/:id))(.:format)'
